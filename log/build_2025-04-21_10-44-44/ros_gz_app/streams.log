@@ -1,0 +1,20 @@
+[0.162s] Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app -- -j28 -l28
+[0.190s] Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app -- -j28 -l28
+[0.191s] Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app
+[0.199s] -- Install configuration: ""
+[0.200s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ament_index/resource_index/package_run_dependencies/ros_gz_app
+[0.200s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ament_index/resource_index/parent_prefix_path/ros_gz_app
+[0.202s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/environment/ament_prefix_path.sh
+[0.202s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/environment/ament_prefix_path.dsv
+[0.203s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/environment/path.sh
+[0.204s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/environment/path.dsv
+[0.204s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/local_setup.bash
+[0.205s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/local_setup.sh
+[0.205s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/local_setup.zsh
+[0.206s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/local_setup.dsv
+[0.206s] -- Installing: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.dsv
+[0.212s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ament_index/resource_index/packages/ros_gz_app
+[0.213s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/cmake/ros_gz_appConfig.cmake
+[0.214s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/cmake/ros_gz_appConfig-version.cmake
+[0.215s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.xml
+[0.264s] Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app

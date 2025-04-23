@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = py_pubsub.publisher:main
+subscriber = py_pubsub.subscriber:main

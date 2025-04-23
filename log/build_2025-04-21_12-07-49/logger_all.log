@@ -1,0 +1,402 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DBUILD_TESTING=ON']
+[0.098s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DBUILD_TESTING=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9a27082e40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9a272237a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9a272237a0>>, mixin_verb=('build',))
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.131s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/holmesa8/csci597f/labs/ros-lab-2'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(figs) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_app) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_gz_app' with type 'ros.ament_cmake' and name 'ros_gz_app'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_bringup) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_gz_bringup' with type 'ros.ament_cmake' and name 'ros_gz_bringup'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_description) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_gz_description' with type 'ros.ament_cmake' and name 'ros_gz_description'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(ros_gz_gazebo) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_gz_gazebo' with type 'ros.ament_cmake' and name 'ros_gz_gazebo'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/holmesa8/csci597f/labs/ros-lab-2/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 317 installed packages in /opt/ros/jazzy
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holmesa8/csci597f/labs/ros-lab-2/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub', 'merge_install': False, 'path': '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app', 'merge_install': False, 'path': '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_app', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description', 'merge_install': False, 'path': '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_description', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo', 'merge_install': False, 'path': '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=ON']'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup', 'merge_install': False, 'path': '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.234s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_description' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_description'
+[0.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub' with build type 'ament_python'
+[0.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_app' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_app'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description -- -j16 -l16
+[0.446s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app -- -j16 -l16
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description -- -j16 -l16
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app -- -j16 -l16
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app
+[0.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_description)
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description' for CMake module files
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description' for CMake config files
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_description', 'cmake_prefix_path')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.sh'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/bin'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/lib/pkgconfig/ros_gz_description.pc'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/lib/python3.12/site-packages'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/bin'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.bash'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.zsh'
+[0.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/colcon-core/packages/ros_gz_description)
+[0.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_description)
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description' for CMake module files
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description' for CMake config files
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_description', 'cmake_prefix_path')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.ps1'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/hook/cmake_prefix_path.sh'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/bin'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/lib/pkgconfig/ros_gz_description.pc'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/lib/python3.12/site-packages'
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/bin'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.ps1'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.bash'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.zsh'
+[0.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/colcon-core/packages/ros_gz_description)
+[0.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_gazebo' with build type 'ament_cmake'
+[0.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_gazebo'
+[0.553s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_app)
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app' for CMake module files
+[0.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_app
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app' for CMake config files
+[0.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_app', 'cmake_prefix_path')
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.ps1'
+[0.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.sh'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/bin'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/lib/pkgconfig/ros_gz_app.pc'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/lib/python3.12/site-packages'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/bin'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.sh'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.bash'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.zsh'
+[0.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/colcon-core/packages/ros_gz_app)
+[0.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_app)
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app' for CMake module files
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app' for CMake config files
+[0.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_app', 'cmake_prefix_path')
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.ps1'
+[0.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.dsv'
+[0.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/hook/cmake_prefix_path.sh'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/bin'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/lib/pkgconfig/ros_gz_app.pc'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/lib/python3.12/site-packages'
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/bin'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.sh'
+[0.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.bash'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/ros_gz_app/package.zsh'
+[0.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app/share/colcon-core/packages/ros_gz_app)
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo': CMAKE_PREFIX_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo -- -j16 -l16
+[0.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo -- -j16 -l16
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo': CMAKE_PREFIX_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo
+[0.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_gazebo)
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo' for CMake module files
+[0.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo' for CMake config files
+[0.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_gazebo', 'cmake_prefix_path')
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.sh'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/bin'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib/pkgconfig/ros_gz_gazebo.pc'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib/python3.12/site-packages'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/bin'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.zsh'
+[0.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/colcon-core/packages/ros_gz_gazebo)
+[0.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_gazebo)
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo' for CMake module files
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo' for CMake config files
+[0.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_gazebo', 'cmake_prefix_path')
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.dsv'
+[0.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/hook/cmake_prefix_path.sh'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/bin'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib/pkgconfig/ros_gz_gazebo.pc'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib/python3.12/site-packages'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/bin'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.ps1'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.dsv'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.sh'
+[0.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.bash'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/ros_gz_gazebo/package.zsh'
+[0.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/share/colcon-core/packages/ros_gz_gazebo)
+[0.768s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_bringup' with build type 'ament_cmake'
+[0.768s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_bringup'
+[0.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.768s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup': CMAKE_PREFIX_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) GZ_SIM_PLUGIN_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib/ros_gz_gazebo PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup -- -j16 -l16
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) GZ_SIM_PLUGIN_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib/ros_gz_gazebo PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup -- -j16 -l16
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup': CMAKE_PREFIX_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) GZ_SIM_PLUGIN_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib/ros_gz_gazebo PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup
+[0.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_bringup)
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup' for CMake module files
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup:/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_app:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) GZ_SIM_PLUGIN_PATH=/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_gazebo/lib/ros_gz_gazebo PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_bringup
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup' for CMake config files
+[0.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bringup', 'cmake_prefix_path')
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.sh'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/bin'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/lib/pkgconfig/ros_gz_bringup.pc'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/lib/python3.12/site-packages'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/bin'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.dsv'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.sh'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.bash'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.zsh'
+[0.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/colcon-core/packages/ros_gz_bringup)
+[0.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_bringup)
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup' for CMake module files
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup' for CMake config files
+[0.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_bringup', 'cmake_prefix_path')
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.ps1'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/hook/cmake_prefix_path.sh'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/bin'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/lib/pkgconfig/ros_gz_bringup.pc'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/lib/python3.12/site-packages'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/bin'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.sh'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.bash'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/ros_gz_bringup/package.zsh'
+[0.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_bringup/share/colcon-core/packages/ros_gz_bringup)
+[0.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub': CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/holmesa8/csci597f/labs/ros-lab-2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/holmesa8/csci597f/labs/ros-lab-2/build/py_pubsub/build install --record /home/holmesa8/csci597f/labs/ros-lab-2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub' for CMake module files
+[1.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub' returned '0': CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/holmesa8/csci597f/labs/ros-lab-2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/holmesa8/csci597f/labs/ros-lab-2/build/py_pubsub/build install --record /home/holmesa8/csci597f/labs/ros-lab-2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub' for CMake config files
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/lib'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/bin'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/lib/python3.12/site-packages'
+[1.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/bin'
+[1.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/package.ps1'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/package.dsv'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/package.sh'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/package.bash'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/py_pubsub/package.zsh'
+[1.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holmesa8/csci597f/labs/ros-lab-2/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[1.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.486s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.486s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.496s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.496s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.496s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.496s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.497s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[1.497s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holmesa8/csci597f/labs/ros-lab-2/install/local_setup.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/holmesa8/csci597f/labs/ros-lab-2/install/_local_setup_util_ps1.py'
+[1.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holmesa8/csci597f/labs/ros-lab-2/install/setup.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holmesa8/csci597f/labs/ros-lab-2/install/local_setup.sh'
+[1.506s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/holmesa8/csci597f/labs/ros-lab-2/install/_local_setup_util_sh.py'
+[1.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holmesa8/csci597f/labs/ros-lab-2/install/setup.sh'
+[1.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holmesa8/csci597f/labs/ros-lab-2/install/local_setup.bash'
+[1.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holmesa8/csci597f/labs/ros-lab-2/install/setup.bash'
+[1.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holmesa8/csci597f/labs/ros-lab-2/install/local_setup.zsh'
+[1.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holmesa8/csci597f/labs/ros-lab-2/install/setup.zsh'

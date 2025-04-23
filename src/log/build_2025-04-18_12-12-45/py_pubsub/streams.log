@@ -1,0 +1,42 @@
+[0.801s] Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub': CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build install --record /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.977s] running egg_info
+[0.977s] creating ../build/py_pubsub/py_pubsub.egg-info
+[0.991s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.008s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.016s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.024s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.030s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.040s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.124s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.135s] adding license file 'LICENSE'
+[1.136s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.143s] running build
+[1.143s] running build_py
+[1.148s] creating /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build
+[1.150s] creating /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib
+[1.154s] creating /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub
+[1.158s] copying py_pubsub/__init__.py -> /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub
+[1.163s] copying py_pubsub/publisher.py -> /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub
+[1.177s] copying py_pubsub/subscriber.py -> /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub
+[1.192s] running install
+[1.210s] running install_lib
+[1.232s] creating /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.238s] copying /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.252s] copying /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub/publisher.py -> /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.271s] copying /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub/subscriber.py -> /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.297s] byte-compiling /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[1.317s] byte-compiling /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher.py to publisher.cpython-312.pyc
+[1.339s] byte-compiling /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber.py to subscriber.cpython-312.pyc
+[1.360s] running install_data
+[1.363s] creating /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/share/ament_index
+[1.365s] creating /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/share/ament_index/resource_index
+[1.369s] creating /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/share/ament_index/resource_index/packages
+[1.376s] copying resource/py_pubsub -> /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/share/ament_index/resource_index/packages
+[1.390s] copying package.xml -> /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/share/py_pubsub
+[1.401s] running install_egg_info
+[1.438s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[1.602s] running install_scripts
+[1.829s] Installing publisher script to /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/py_pubsub
+[1.841s] Installing subscriber script to /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/py_pubsub
+[1.855s] writing list of installed files to '/home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/install.log'
+[1.889s] Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub' returned '0': CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build install --record /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/install.log --single-version-externally-managed install_data

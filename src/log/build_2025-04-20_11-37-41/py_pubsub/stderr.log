@@ -1,0 +1,5 @@
+  File "/home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher.py", line 129
+    if self.state = "MOVING":
+       ^^^^^^^^^^
+SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+

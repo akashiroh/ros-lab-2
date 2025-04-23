@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c2b9aa4d209dcd1d9210.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros_gz_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BasicSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BasicSystem-d87a9afe62328c2a4b01.json",
+					"name" : "BasicSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FullSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FullSystem-2fb879fb708d1abf8f47.json",
+					"name" : "FullSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_gazebo_uninstall-9993d5d04d04796ef562.json",
+					"name" : "ros_gz_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b322d3eb59f5042786d5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_gazebo",
+		"source" : "/home/holmesa8/csci597f/labs/ros-lab-2/ros_gz_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

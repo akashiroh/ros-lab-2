@@ -1,0 +1,26 @@
+[0.036s] Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description -- -j28 -l28
+[0.584s] Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description -- -j28 -l28
+[0.589s] Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description
+[0.607s] -- Install configuration: ""
+[0.608s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models
+[0.610s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive
+[0.613s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive/model.config
+[0.614s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive/model.sdf
+[0.616s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ros_gz_description.dsv
+[0.617s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ros_gz_description.sh
+[0.620s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/package_run_dependencies/ros_gz_description
+[0.621s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/parent_prefix_path/ros_gz_description
+[0.622s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ament_prefix_path.sh
+[0.623s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ament_prefix_path.dsv
+[0.624s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/path.sh
+[0.625s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/path.dsv
+[0.626s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.bash
+[0.627s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.sh
+[0.628s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.zsh
+[0.630s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.dsv
+[0.631s] -- Installing: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.dsv
+[0.640s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/packages/ros_gz_description
+[0.642s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/cmake/ros_gz_descriptionConfig.cmake
+[0.643s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/cmake/ros_gz_descriptionConfig-version.cmake
+[0.644s] -- Up-to-date: /home/holmesa8/csci597f/labs/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.xml
+[0.727s] Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/holmesa8/csci597f/labs/ros-lab-2/build/ros_gz_description

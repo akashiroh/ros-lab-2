@@ -1,0 +1,26 @@
+[0.858s] Invoking command in '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub': CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build install --record /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.049s] running egg_info
+[1.068s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.083s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.093s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.104s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.112s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.179s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.187s] adding license file 'LICENSE'
+[1.188s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.197s] running build
+[1.197s] running build_py
+[1.207s] copying py_pubsub/publisher.py -> /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub
+[1.229s] running install
+[1.236s] running install_lib
+[1.279s] copying /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build/lib/py_pubsub/publisher.py -> /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.308s] byte-compiling /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher.py to publisher.cpython-312.pyc
+[1.331s] running install_data
+[1.337s] running install_egg_info
+[1.367s] removing '/home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[1.399s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[1.547s] running install_scripts
+[1.748s] Installing publisher script to /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/py_pubsub
+[1.762s] Installing subscriber script to /home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/py_pubsub
+[1.776s] writing list of installed files to '/home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/install.log'
+[1.824s] Invoked command in '/home/holmesa8/csci597f/labs/ros-lab-2/src/py_pubsub' returned '0': CONDA_PROMPT_MODIFIER=(base) PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holmesa8/csci597f/labs/ros-lab-2/src/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/build install --record /home/holmesa8/csci597f/labs/ros-lab-2/src/build/py_pubsub/install.log --single-version-externally-managed install_data
